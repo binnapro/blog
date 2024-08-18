@@ -5,6 +5,6 @@ export default defineConfig({
   themeConfig: {
     name: 'notebook',
   },
-  base: '/binnapro.github.io/blog/',
-  publicPath: '/binnapro.github.io/blog/',
+  publicPath: '/blog/',
+  history: { type: 'hash' },
 });

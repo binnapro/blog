@@ -11,8 +11,7 @@
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
-    "deploy": "gh-pages -d docs-dist",
-    "deploy:package": "gh-pages -d dist",
+    "deploy": "pnpm run docs:build & gh-pages -d docs-dist",
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "docs:preview": "dumi preview",
