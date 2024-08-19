@@ -1,0 +1,138 @@
+.home-header-background {
+  background-image: url('/blog/homeBackground.jpg');
+  background-size: 100%;
+  background-size: bottom center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+    'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
+    'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC',
+    'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC',
+    'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  height: 418px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .home-header-title {
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: -50px;
+  }
+
+  .home-header-subtitle {
+    font-size: 18px;
+    line-height: 1.2;
+    display: block;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+}
+
+.home-abstract-box {
+  width: 66.66666667%;
+  padding-right: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+    'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
+    'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC',
+    'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC',
+    'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  .home-abstract-item {
+    text-decoration: none;
+    &:hover {
+      .home-abstract-title {
+        color: #008dff;
+      }
+      .home-abstract-subtitle {
+        color: #008dff;
+      }
+      .home-abstract-date {
+        color: #008dff;
+      }
+    }
+    word-break: break-all;
+    .home-abstract-title {
+      box-sizing: border-box;
+      color: rgb(64, 64, 64);
+      font-weight: 700;
+      margin-top: 30px;
+      font-size: 26px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+    .home-abstract-subtitle {
+      line-height: 1.7;
+      box-sizing: border-box;
+      font-style: italic;
+      color: #a3a3a3;
+      font-size: 14px;
+    }
+    .home-abstract-date {
+      line-height: 1.7;
+      box-sizing: border-box;
+      margin: 30px 0;
+      font-family: Lora, 'Times New Roman', serif;
+      color: #a3a3a3;
+      font-style: italic;
+      margin-top: 0;
+      font-size: 18px;
+    }
+  }
+}
+
+.home-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 970px;
+  margin: 0 auto;
+}
+
+.home-tags-box {
+  margin-top: 20px;
+  width: 33.3333333%;
+  padding-right: 24px;
+  .home-tags-title {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+      'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
+      'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC',
+      'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC',
+      'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    line-height: 1.1;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #a3a3a3 !important;
+    text-decoration: none;
+    margin: 10px 0 24px 0;
+  }
+  .home-tags-item-box {
+    .home-tags-item {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+        'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
+        'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC',
+        'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC',
+        'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+      box-sizing: border-box;
+      background-color: transparent;
+      color: #bfbfbf;
+      display: inline-block;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 999em;
+      padding: 0 10px 0 10px;
+      line-height: 24px;
+      font-size: 12px;
+      text-decoration: none;
+      margin: 0 1px;
+      margin-bottom: 6px;
+      cursor: pointer;
+      margin-right: 5px;
+      border-color: #bfbfbf;
+      &:hover {
+        color: #008dff;
+        border: 1px solid #008dff;
+      }
+    }
+  }
+}
